@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Magnify
+	</title>
+	<style type="text/css">
+		.magnify{
+			width: .5vw;
+			opacity: 0.5;
+			transition: 0.5s ease;
+			-webkit-transition: 0.5s ease;
+			-moz-transition: 0.5s ease;
+			position: center;
+		}
+		.magnify:hover{
+			width: 40vw;
+			opacity: 1;
+			-webkit-opacity: 1;
+			-moz-opacity: 1;
+		}
+		.magnifying{
+			top:0;
+			left:0;
+		}
+		.cursor{
+			cursor: url("magnifyingglasscursor.png"), auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="magnifyingglass.png" alt="Looks like something is there" class="magnify" class="magnifying" class="cursor" />
+	</div>
+</body>
+</html>

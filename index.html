@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Steal The Money
+	</title>
+	<style type="text/css">
+		.container {
+				position: relative;
+				width: 50%;
+			}
+
+		.image {
+ 			opacity: 0;
+			display: block;
+  			width: 100%;
+			height: auto;
+			transition: .5s ease;
+			backface-visibility: hidden;
+		}
+		
+		.middle {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+		}
+
+		.container:hover .image {
+			opacity: 0.3;
+		}
+
+		.container:hover .middle {
+			opacity: 1;
+		}
+		/*.box{
+			width: 5vw;
+			padding: 2vh 1vw 2vh 1vw;
+
+		}
+		img{
+			width: 5vw;
+			height: 3vh;
+			max-width: 100%;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="moneymoneymoney.jpg" alt="money" class="image" style="width:100%">
+	</div>
+	<div class="middle">
+	</div>
+
+</body>
+</html>
